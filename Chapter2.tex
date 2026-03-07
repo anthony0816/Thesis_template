@@ -79,8 +79,13 @@ Para el correcto modelado de los procesos, se han identificado dos tipos de acto
 
 La funcionalidad general de Assets Studio se agrupa en cuatro macro-procesos o paquetes funcionales: Gestión de Identidad, Gestión de Assets, Interacción Social y Generación de Contenido.
 
-[Figura II.1. Diagrama de Casos de Uso General del Sistema]
-(Nota para el estudiante: En este diagrama debes mostrar al Usuario Registrado conectado con óvalos que digan "Subir Asset", "Generar Asset con IA", "Comentar", "Dar Like", "Gestionar Perfil". El Usuario Invitado solo debe conectar con "Buscar Asset" y "Visualizar Asset").
+\begin{figure}[H]
+    \centering
+    \captionbox{Diagrama de Casos de Uso General del Sistema\label{fig:casos_uso_sistema}}
+    {\includegraphics[width=0.7\linewidth]{Images/diagramas/casos_de_uso_del_sistema.jpg}}
+\end{figure}
+
+
 
 A continuación, se descomponen los subprocesos más críticos que definen la lógica de negocio de la aplicación.
 
@@ -97,6 +102,12 @@ El flujo de actividades para la publicación de un recurso sigue la siguiente se
         \item Registro de Metadatos: Una vez confirmada la subida, el sistema registra en la base de datos (PostgreSQL/Neon) la URL del recurso, asignándole automáticamente la categoría seleccionada por el usuario y procesando las etiquetas (tags) para la búsqueda semántica.
         \item Vinculación: El asset se asocia al ID del usuario creador y se publica en el feed general.
     \end{itemize}
+    % searchthis
+    \begin{figure}[H]
+        \centering
+        \captionbox{Diagrama de Actividad del Proceso de Subida de Assets\label{fig:casos_uso_sistema}}
+        {\includegraphics[width=0.7\linewidth]{Images/diagramas/DA_subida_de_asset.JPG}}
+    \end{figure}
 
     [figura: Figura II.2. Diagrama de Actividad del Proceso de Subida de Assets]
     (Nota: Dibuja un diagrama de flujo donde se vea: Inicio -> Seleccionar Archivo -> ¿Es válido? (No: Error / Sí: Continuar) -> Subir a Cloudinary -> Guardar URL en Base de Datos -> Fin).
@@ -189,6 +200,13 @@ La arquitectura se divide en tres capas lógicas:
 
     \end{itemize}
 
+    % searchthis
+    \begin{figure}[H]
+        \centering
+        \captionbox{Diagrama de Casos de Uso General del Sistema\label{fig:casos_uso_sistema}}
+        {\includegraphics[width=0.7\linewidth]{Images/diagramas/casos_de_uso_del_sistema.jpg}}
+    \end{figure}
+
 [Figura II.3. Diagrama de Arquitectura del Sistema]
 (Nota para el estudiante: Dibuja un diagrama de bloques. Al centro pon "Next.js App (Frontend + API)". Con flechas bidireccionales conéctalo a: "Neon (PostgreSQL)" abajo, "Cloudinary" a la derecha, "Firebase Auth" a la izquierda y "IA Service" arriba).
 
@@ -206,8 +224,12 @@ El diseño de la base de datos es relacional y se encuentra normalizado para ase
 
 La estructura garantiza que operaciones críticas, como la eliminación de un usuario, se propaguen en cascada (onDelete: Cascade) para limpiar automáticamente sus activos, comentarios y valoraciones, manteniendo la higiene de la base de datos.
 
-[Figura II.4. Diagrama Entidad-Relación (DER)]
-(Nota: Aquí puedes usar una captura del diagrama que genera Prisma Studio o dibujar el esquema de tablas: User 1---N Asset, Asset 1---N Like, Asset 1---N Coment, etc. Asegúrate de mostrar las claves foráneas).
+% searchthis
+    \begin{figure}[H]
+        \centering
+        \captionbox{ Diagrama Entidad-Relación (DER)\label{fig:casos_uso_sistema}}
+        {\includegraphics[width=0.7\linewidth]{Images/diagramas/ED_modelo_entidad_relacion.PNG}}
+    \end{figure}
 
 \section{Epigrafe 3}
 \subsection{Diseño de mecanismos de datos, implementación e interfaces de usuario}
@@ -298,20 +320,39 @@ a interfaz de usuario se diseñó priorizando la usabilidad y la carga progresiv
 Vista Principal y Catálogo de Assets:
 La pantalla principal actúa como el punto de entrada, presentando una galería tipo masonry (muro de ladrillos) que optimiza el espacio vertical. Incluye una barra de búsqueda semántica y filtros por categoría.
 
-[Figura II.5. Interfaz de la Página Principal y Galería de Assets]
-(Nota: Captura de pantalla donde se vea la barra de búsqueda arriba y la cuadrícula de imágenes abajo).
+% searchthis
+    \begin{figure}[H]
+        \centering
+        \captionbox{Interfaz de la Página Principal y Galería de Assets\label{fig:casos_uso_sistema}}
+        {\includegraphics[width=0.7\linewidth]{Images/diagramas/WEB_pagina_principal.PNG}}
+    \end{figure}
+
 
 Detalle del Asset y Panel de Interacción:
 Al seleccionar un recurso, se despliega una vista detallada que permite previsualizar el asset a máxima resolución. En esta interfaz se integran los componentes sociales: botón de "Me gusta", sección de comentarios en tiempo real y opciones de descarga.
 
-[Figura II.6. Interfaz de Detalle de Asset con Comentarios y Opciones]
-(Nota: Captura donde se vea una imagen grande, y al lado o abajo los comentarios de usuarios y el botón de descarga).
+% searchthis
+    \begin{figure}[H]
+        \centering
+        \captionbox{Interfaz de Detalle de Asset con Comentarios y Opciones\label{fig:casos_uso_sistema}}
+        {\includegraphics[width=0.7\linewidth]{Images/diagramas/Web_detalles_asset.PNG}}
+    \end{figure}
+
+% [Figura II.6. Interfaz de Detalle de Asset con Comentarios y Opciones]
+% (Nota: Captura donde se vea una imagen grande, y al lado o abajo los comentarios de usuarios y el botón de descarga).
 
 Panel de Gestión y Generación con IA:
 Esta interfaz permite al usuario autenticado subir sus propios archivos o utilizar la herramienta de generación. Se diseñó un formulario intuitivo que guía al usuario en el etiquetado del recurso. En el caso de la IA, incluye un campo de texto para el prompt y un área de previsualización para decidir si descartar o guardar el resultado.
 
-[Figura II.7. Interfaz de Generación de Assets mediante IA]
-(Nota: Captura del formulario donde pones el texto para la IA y te muestra la imagen generada).
+% searchthis
+    \begin{figure}[H]
+        \centering
+        \captionbox{DInterfaz de Generación de Assets mediante IA\label{fig:casos_uso_sistema}}
+        {\includegraphics[width=0.7\linewidth]{Images/diagramas/WEB_generacion_ia.PNG}}
+    \end{figure}
+
+% [Figura II.7. Interfaz de Generación de Assets mediante IA]
+% (Nota: Captura del formulario donde pones el texto para la IA y te muestra la imagen generada).
 
 \section{Epigrafe 4}
 \subsection{Diseño de la gestión de errores y despliegue de la solución}
@@ -342,6 +383,13 @@ Reporte Participativo de Errores:
         \item Los usuarios pueden señalar assets corruptos o fallos funcionales, creando un registro directo en la base de datos para su posterior revisión por un administrador.
     \end{itemize}
 
+    % searchthis
+    \begin{figure}[H]
+        \centering
+        \captionbox{Diagrama de Casos de Uso General del Sistema\label{fig:casos_uso_sistema}}
+        {\includegraphics[width=0.7\linewidth]{Images/diagramas/casos_de_uso_del_sistema.jpg}}
+    \end{figure}
+
 [Figura II.8. Diagrama de Flujo de Gestión de Excepciones]
 (Nota para el estudiante: Dibuja un diagrama sencillo: Usuario realiza acción -> ¿Error en datos? (Sí: Mensaje de alerta / No: Enviar al Servidor) -> Servidor procesa -> ¿Fallo externo? (Sí: Retornar error 500 / No: Éxito). Incluye una cajita que diga "Registro en Log").
 
@@ -370,6 +418,13 @@ Componentes de la Infraestructura de Producción: la Infraestructura de Producci
         \item Almacenamiento Media: Cloudinary (CDN para imágenes y audio).
         \item Autenticación: Firebase Identity Platform.
     \end{itemize}
+
+    % searchthis
+    \begin{figure}[H]
+        \centering
+        \captionbox{Diagrama de Casos de Uso General del Sistema\label{fig:casos_uso_sistema}}
+        {\includegraphics[width=0.7\linewidth]{Images/diagramas/casos_de_uso_del_sistema.jpg}}
+    \end{figure}
 
 [Figura II.9. Diagrama de Despliegue de la Solución]
 (Nota: Dibuja un diagrama de despliegue UML. Muestra nodos (cubos 3D): "Cliente (Navegador)", "Servidor de Aplicaciones (Vercel)", "Servidor de Base de Datos (Neon)", "Servidor de Archivos (Cloudinary)". Conecta los nodos con líneas que indiquen el protocolo, ej: "HTTPS/JSON").
