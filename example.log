@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.3)  6 MAR 2026 19:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.3)  6 MAR 2026 21:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1545,18 +1545,6 @@ LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 21.
-LaTeX Info: Redefining \. on input line 181.
-LaTeX Info: Redefining \% on input line 181.
-LaTeX Info: Redefining \. on input line 182.
-LaTeX Info: Redefining \% on input line 182.
-LaTeX Info: Redefining \. on input line 183.
-LaTeX Info: Redefining \% on input line 183.
-LaTeX Info: Redefining \. on input line 184.
-LaTeX Info: Redefining \% on input line 184.
-LaTeX Info: Redefining \. on input line 187.
-LaTeX Info: Redefining \% on input line 187.
-LaTeX Info: Redefining \. on input line 188.
-LaTeX Info: Redefining \% on input line 188.
 )
 \openout1 = `example.aux'.
 
@@ -1816,24 +1804,6 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Font shape `T1/txr/b/sc' in size <10.95> not available
 (Font)              Font shape `T1/txr/bx/sc' tried instead on input line 2.
-LaTeX Info: Redefining \sptext on input line 16.
-LaTeX Info: Redefining \. on input line 16.
-LaTeX Info: Redefining \% on input line 16.
-LaTeX Info: Redefining \sptext on input line 17.
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
-LaTeX Info: Redefining \sptext on input line 18.
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
-LaTeX Info: Redefining \sptext on input line 19.
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
-LaTeX Info: Redefining \sptext on input line 20.
-LaTeX Info: Redefining \. on input line 20.
-LaTeX Info: Redefining \% on input line 20.
-LaTeX Info: Redefining \sptext on input line 21.
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
 )
 \tf@toc=\write8
 \openout8 = `example.toc'.
@@ -1844,24 +1814,6 @@ LaTeX Info: Redefining \% on input line 21.
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \sptext on input line 7.
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
-LaTeX Info: Redefining \sptext on input line 8.
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-LaTeX Info: Redefining \sptext on input line 9.
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
-LaTeX Info: Redefining \sptext on input line 10.
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
-LaTeX Info: Redefining \sptext on input line 11.
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
-LaTeX Info: Redefining \sptext on input line 12.
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
 )
 \tf@lof=\write9
 \openout9 = `example.lof'.
@@ -1872,24 +1824,6 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \sptext on input line 21.
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
-LaTeX Info: Redefining \sptext on input line 22.
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
-LaTeX Info: Redefining \sptext on input line 23.
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
-LaTeX Info: Redefining \sptext on input line 24.
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
-LaTeX Info: Redefining \sptext on input line 25.
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
-LaTeX Info: Redefining \sptext on input line 26.
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
 )
 \tf@lot=\write10
 \openout10 = `example.lot'.
@@ -1908,324 +1842,87 @@ LaTeX Info: Redefining \% on input line 26.
 
  [11
 
-] (example.tdo
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <9> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 1.
-)
+] (example.tdo)
 \tf@tdo=\write13
 \openout13 = `example.tdo'.
 
  [12
 
-] (Introduction.tex
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 3.
-) (Chapter1.tex [1
+] (Introduction.tex [1
 
 
-]
+]) (Chapter1.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 1.
+ [2]
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 23.63593pt on input line 1.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 7.
-<Images/DSC00461.jpg, id=178, 481.8pt x 361.35pt>
-File: Images/DSC00461.jpg Graphic file (type jpg)
-<use Images/DSC00461.jpg>
-Package pdftex.def Info: Images/DSC00461.jpg  used on input line 17.
-(pdftex.def)             Requested size: 328.82707pt x 246.62451pt.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 8.
+[3
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+]
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
 
+
+Package fancyhdr Warning: \headheight is too small (14.05273pt): 
+(fancyhdr)                Make it at least 27.65274pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.65274pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-13.6pt}.
+
+[4]
+Overfull \hbox (15.3621pt too wide) in paragraph at lines 34--35
+[]\T1/txr/m/n/10.95 Las me-to-do-lo-gías de De-sa-rro-llo Ágil de Soft-wa-re con adap-ta-cio-nes pa-ra en-tor-nos aca-démico-productivos 
  []
 
-[2
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
 
-]
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 36.
- [3 <./Images/DSC00461.jpg>]
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
- [4]
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
- [5]
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
- [6]
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
- [7]
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
- [8]
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
- [9]
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
- [10]
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
- [11]
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
- [12]
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
- [13]
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
- [14]
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
- [15]
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
- [16]
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
- [17]
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
- [18]
-LaTeX Info: Redefining \. on input line 45.
-LaTeX Info: Redefining \% on input line 45.
- [19]
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
- [20]
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
- [21]
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
- [22]
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
- [23]
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
- [24]
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
- [25]
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
- [26]
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
- [27]
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- [28]
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- [29]
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- [30]
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- [31]
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- [32]
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- [33]
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- [34]
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- [35]
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
- [36]
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
- [37]
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
- [38]
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
- [39]
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
- [40]
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
- [41]
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
- [42]
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
- [43]
-LaTeX Info: Redefining \. on input line 48.
-LaTeX Info: Redefining \% on input line 48.
- [44]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
- [45]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
- [46]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
- [47]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
- [48]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
- [49]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
- [50]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
- [51]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
- [52]
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
- [53])
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
- [54]
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
- [55]
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
- [56]
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
- [57]
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
- [58]
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
- [59]
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
- [60]
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
- [61] (Chapter2.tex
+Package fancyhdr Warning: \headheight is too small (14.05273pt): 
+(fancyhdr)                Make it at least 27.65274pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.65274pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-13.6pt}.
+
+[5]
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
+
+
+Package fancyhdr Warning: \headheight is too small (14.05273pt): 
+(fancyhdr)                Make it at least 27.65274pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.65274pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-13.6pt}.
+
+[6]) (Chapter2.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [62]
+
+
+Package fancyhdr Warning: \headheight is too small (14.05273pt): 
+(fancyhdr)                Make it at least 27.65274pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.65274pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-13.6pt}.
+
+[7]
 Cap\'{\i }tulo 2.
-[63
+[8
 
-]
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 51.
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 53.
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
- [64] (C:\Users\Antonio Luis\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\Antonio Luis\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\Antonio Luis\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 83.
- (Anexos/code.cpp
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1.
- (C:\Users\Antonio Luis\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
-File: ts1txr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `TS1/txr/b/n' in size <10.95> not available
-(Font)              Font shape `TS1/txr/bx/n' tried instead on input line 3.
-) (C:\Users\Antonio Luis\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-)
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 86.
- (C:\Users\Antonio Luis\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-) (Anexos/code.cpp)
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
- [65] (C:\Users\Antonio Luis\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\Antonio Luis\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (Anexos/code.cpp
-LaTeX Font Info:    Trying to load font information for TS1+txtt on input line 40.
- (C:\Users\Antonio Luis\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txtt.fd
-File: ts1txtt.fd 2000/12/15 v3.1
-)) (Anexos/code.cpp
-LaTeX Info: Redefining \. on input line 161.
-LaTeX Info: Redefining \% on input line 161.
- [66
-
-pdfTeX warning: pdflatex: pop empty color page stack 0
-]) (C:\Users\Antonio Luis\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (Anexos/code.cpp
-LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <9> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 62.
-LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <9> not available
-(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 64.
-) (C:\Users\Antonio Luis\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\Antonio Luis\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-) (Anexos/code.cpp)
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
- [67] (Anexos/code.cpp
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
- [68])
-LaTeX Info: Redefining \. on input line 104.
-LaTeX Info: Redefining \% on input line 104.
- [69]
-Cap\'{\i }tulo 3.
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 114.
-Chapter2.tex:178: ignored error: Infinite glue shrinkage found in box being split [70
-
-]
-LaTeX Info: Redefining \. on input line 222.
-LaTeX Info: Redefining \% on input line 222.
- [71]
-Chapter2.tex:272: ignored error: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 272.
-LaTeX Info: Redefining \% on input line 272.
- [72]
-
-Package Thesis Warning: You are using development and engineering tasks at the same time. Check it out!! on input line 296.
-
-Chapter2.tex:305: ignored error: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 305.
-LaTeX Info: Redefining \% on input line 305.
- [73]
-
-Package Thesis Warning: You are using development and engineering tasks at the same time. Check it out!! on input line 307.
-
-
-Package Thesis Warning: You are using development and engineering tasks at the same time. Check it out!! on input line 318.
-
-) (Chapter3.tex
+]) (Chapter3.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [74]
-Cap\'{\i }tulo 4.
-) (Conclusions.tex [75
+ [9]
+Cap\'{\i }tulo 3.
+) (Conclusions.tex [10
 
-]) (Suggestions.tex [76
+]) (Suggestions.tex [11
 
 ]) (Appendices.tex)
 
@@ -2235,28 +1932,10 @@ This document will not have a glossary.
 
 No file example.gls.
 No file example.acr.
-[77
 
-]
-LaTeX Info: Redefining \sptext on input line 35.
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
-LaTeX Info: Redefining \sptext on input line 35.
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
-LaTeX Info: Redefining \sptext on input line 35.
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
-LaTeX Info: Redefining \sptext on input line 35.
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
-LaTeX Info: Redefining \sptext on input line 35.
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
-LaTeX Info: Redefining \sptext on input line 35.
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
- [78
+LaTeX Warning: Empty bibliography on input line 35.
+
+[12
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -2293,18 +1972,18 @@ LaTeX Info: Redefining \% on input line 35.
 
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <24.88> not available
 (Font)              Font shape `T1/txr/bx/n' tried instead on input line 35.
- [79
+ [13
 
 
 
 ]
 Ap\'{e}ndice A.
-<Anexos/BloqueCoronaReport.pdf, id=718, 614.295pt x 794.97pt>
+<Anexos/BloqueCoronaReport.pdf, id=177, 614.295pt x 794.97pt>
 File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf  used on input line 35.
 (pdftex.def)             Requested size: 276.43019pt x 357.7332pt.
-[80
+[14
 
 
  <./Anexos/BloqueCoronaReport.pdf>]
@@ -2313,16 +1992,19 @@ File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf  used on input line 35.
 (pdftex.def)             Requested size: 276.43019pt x 357.7332pt.
-[81
+[15
 
 ]
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
+ [16]
 \c@tempcnt=\count623
 \c@includepdfpage=\count624
 File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf  used on input line 35.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Anexos/BloqueCoronaReport.pdf, id=744, page=1, 614.295pt x 794.97pt>
+<Anexos/BloqueCoronaReport.pdf, id=207, page=1, 614.295pt x 794.97pt>
 File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf, page 1>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf , page1 used on input line 35.
@@ -2343,11 +2025,11 @@ File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf, page 1>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf , page1 used on input line 35.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [82
+ [17
 
 
  <./Anexos/BloqueCoronaReport.pdf>]
-<Anexos/BloqueCoronaReport.pdf, id=765, page=2, 614.295pt x 794.97pt>
+<Anexos/BloqueCoronaReport.pdf, id=229, page=2, 614.295pt x 794.97pt>
 File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf, page 2>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf , page2 used on input line 35.
@@ -2360,30 +2042,12 @@ File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf, page 2>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf , page2 used on input line 35.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [83
+ [18
 
  <./Anexos/BloqueCoronaReport.pdf>] (example.aux
 LaTeX Info: Redefining \sptext on input line 21.
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
-LaTeX Info: Redefining \sptext on input line 181.
-LaTeX Info: Redefining \. on input line 181.
-LaTeX Info: Redefining \% on input line 181.
-LaTeX Info: Redefining \sptext on input line 182.
-LaTeX Info: Redefining \. on input line 182.
-LaTeX Info: Redefining \% on input line 182.
-LaTeX Info: Redefining \sptext on input line 183.
-LaTeX Info: Redefining \. on input line 183.
-LaTeX Info: Redefining \% on input line 183.
-LaTeX Info: Redefining \sptext on input line 184.
-LaTeX Info: Redefining \. on input line 184.
-LaTeX Info: Redefining \% on input line 184.
-LaTeX Info: Redefining \sptext on input line 187.
-LaTeX Info: Redefining \. on input line 187.
-LaTeX Info: Redefining \% on input line 187.
-LaTeX Info: Redefining \sptext on input line 188.
-LaTeX Info: Redefining \. on input line 188.
-LaTeX Info: Redefining \% on input line 188.
 )
  ***********
 LaTeX2e <2025-11-01>
@@ -2394,26 +2058,20 @@ Package logreq Info: Writing requests to 'example.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51602 strings out of 467871
- 989429 string characters out of 5414953
- 2334160 words of memory out of 5000000
- 79184 multiletter control sequences out of 15000+600000
- 724976 words of font info for 182 fonts, out of 8000000 for 9000
+ 49183 strings out of 467871
+ 953977 string characters out of 5414953
+ 1969507 words of memory out of 5000000
+ 77102 multiletter control sequences out of 15000+600000
+ 704557 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,17n,137p,2630b,3176s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,17n,131p,2630b,1953s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:Engine} has been referenced but does not exist, replaced by a fixed one
 
-
-pdfTeX warning (dest): name{glo:SCADA} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{glo:UCI} has been referenced but does not exist, replaced by a fixed one
-
-<C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/aurical/JanaSkrivanaSlant.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxbsc.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/tcxtt.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txex.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsyc.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on example.pdf (95 pages, 670878 bytes).
+<C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/aurical/JanaSkrivanaSlant.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxbsc.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on example.pdf (30 pages, 333084 bytes).
 PDF statistics:
- 979 PDF objects out of 1000 (max. 8388607)
- 341 named destinations out of 1000 (max. 500000)
- 195 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
