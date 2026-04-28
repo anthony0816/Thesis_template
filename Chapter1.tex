@@ -2,65 +2,70 @@
 
 \label{chap:chapter1}
 
-El siguiente apartado constituye el núcleo ejecutor de la investigación, donde se materializa el diseño metodológico en acciones concretas que dieron forma a Assets Studio. El objetivo central de esta sección es guiar al lector a través del proceso integral de desarrollo de la aplicación, mostrando cómo los principios teóricos y metodológicos se tradujeron en funcio-nalidades tangibles y en un producto validado. Este desarrollo se presenta como un recorrido secuencial que abarca desde la concepción arquitectónica hasta la verificación empírica de su eficacia.
-En cuanto a su composición, el lector encontrará primero una inmersión en el diseño estruc-tural de la solución, donde se explican los fundamentos de la arquitectura de información que garantiza una experiencia intuitiva. Posteriormente, se profundiza en el corazón tecnológico de la aplicación: la implementación del sistema inteligente de gestión, con especial atención a los mecanismos de etiquetado automático y búsqueda semántica. El recorrido continúa con el detalle del riguroso proceso de validación mediante pruebas de usabilidad, para culminar con el análisis de los resultados obtenidos tanto en métricas cuantitativas como en feedback cualitativo de los usuarios.
-Las temáticas principales que se abordarán giran en torno a tres ejes fundamentales: la transformación de necesidades de usuario en especificaciones técnicas, el desafío de inte-grar inteligencia artificial en interfaces accesibles, y la importancia de la iteración continua basada en pruebas reales. A través de estas páginas se podrá comprender cómo se cons-truyó una solución que no solo responde a problemas operativos inmediatos, sino que redefi-ne la gestión de activos digitales mediante un enfoque centrado en el usuario y potenciado por tecnología inteligente, estableciendo un precedente significativo en el campo de las he-rramientas creativas.
-\section{Fundamentos Teórico-Metodológicos}
-El presente epígrafe se dedica a la sistematización de los fundamentos teóricos y metodoló-gicos que sustentan la investigación sobre gestión de activos digitales, con especial atención al contexto cubano y su particular ecosistema tecnológico. A nivel internacional, el estudio se enmarca en las teorías contemporáneas de gestión de recursos digitales (Digital Asset Ma-nagement) y los principios de experiencia de usuario (UX) establecidos por autores como Jesse James Garrett y Don Norman. Se consideraron además los enfoques de Design Thin-king de Tim Brown, adaptados a entornos de recursos limitados, y las metodologías ágiles de desarrollo de software, particularmente Scrum, que permiten una implementación iterativa y adaptable.
-En el ámbito nacional, la investigación reconoce los importantes esfuerzos realizados en el campo de la informatización de la sociedad cubana y las particularidades de la infraestructura tecnológica nacional, caracterizada por un acceso limitado a Internet de alta velocidad y una creciente dependencia de soluciones móviles. Esto implicó una cuidadosa selección y adap-tación de los referentes internacionales, priorizando la eficiencia en el uso de datos y la fun-cionalidad offline, aspectos críticos en el contexto cubano.
+Este capítulo sistematiza los fundamentos y referentes teórico-metodológicos que sustentan la investigación. Su propósito es establecer el marco conceptual y metodológico que orienta el diseño, implementación y validación de la solución propuesta.
+
+En su estructura se desarrollan, primero, los principales referentes sobre gestión de activos digitales y experiencia de usuario. Posteriormente, se presentan los elementos metodológicos que justifican la selección y combinación de Design Thinking y Scrum. Finalmente, se expone el diagnóstico del objeto de estudio y la fundamentación de las tecnologías empleadas en el desarrollo de la propuesta.
+
+El contenido se organiza en torno a tres ejes: identificación de necesidades del usuario, traducción de esas necesidades a decisiones de diseño e implementación, y evaluación de la pertinencia tecnológica en el contexto cubano.
+\section{Referentes teórico-metodológicos sobre el objeto de estudio}
+El presente epígrafe sistematiza los fundamentos teóricos y metodológicos que sustentan la investigación sobre gestión de activos digitales, con especial atención al contexto cubano. A nivel internacional, el estudio se enmarca en los enfoques de Digital Asset Management (DAM) y en los principios de experiencia de usuario (UX) \citep{Garrett2011,Norman2013}. También se consideran los aportes de Design Thinking para la definición de soluciones centradas en el usuario \citep{Brown2008}.
+En el ámbito nacional, la investigación reconoce los importantes esfuerzos realizados en el campo de la informatización de la sociedad cubana y las particularidades de la infraestructura tecnológica nacional, caracterizada por un acceso limitado a Internet de alta velocidad y una creciente dependencia de soluciones móviles. Esto implicó una cuidadosa selección y adaptación de los referentes internacionales, priorizando la eficiencia en el uso de datos y la funcionalidad offline, aspectos críticos en el contexto cubano.
 Como referentes fundamentales de esta investigación se establecieron:
 
 \begin{itemize}
-    \item Los principios de arquitectura de información de Rosenfeld y Morville, para diseñar una estructura clara y navegable que minimice la carga cognitiva del usuario.
+    \item Los principios de arquitectura de información de Rosenfeld y Morville, para diseñar una estructura clara y navegable que minimice la carga cognitiva del usuario \citep{Rosenfeld2015}.
     
-    \item El marco de usabilidad y accesibilidad definido por Jakob Nielsen, adaptado a las realidades tecnológicas y los patrones de uso predominantes en Cuba.
+    \item El marco de usabilidad y accesibilidad definido por Jakob Nielsen, adaptado a las realidades tecnológicas y los patrones de uso predominantes en Cuba \citep{Nielsen1994}.
     
-    \item Las metodologías de desarrollo ágil que permitieron ajustar continuamente el producto a las necesidades específicas detectadas en los usuarios cubanos, optimizando los siempre escasos recursos de desarrollo.
+    \item Las metodologías de desarrollo ágil que permiten ajustar continuamente el producto a las necesidades específicas detectadas en los usuarios cubanos, optimizando los recursos de desarrollo.
     
-    \item La conjunción de estos fundamentos internacionales con una profunda comprensión de las particularidades nacionales permitió construir un marco teórico-metodológico sólido y pertinente, orientado a resolver problemas reales de los profesionales creativos en Cuba mediante una herramienta tecnológicamente viable y centrada en el usuario.
 \end{itemize}
 
 La conjunción de estos fundamentos internacionales con una profunda comprensión de las particularidades nacionales permitió construir un marco teórico-metodológico sólido y pertinente, orientado a resolver problemas reales de los profesionales creativos en Cuba mediante una herramienta tecnológicamente viable y centrada en el usuario.
 
-\section{Fundamentos Teórico-Modológicos del Desarrollo Tecnológico}
+\section{Fundamentos teórico-metodológicos del desarrollo tecnológico}
 
-El presente epígrafe sistematiza los fundamentos teórico-metodológicos que sustentan el tipo de resultado tecnológico contenido en el campo de acción del desarrollo de aplicaciones móviles para gestión de activos digitales, reflejado en el objetivo general de crear una solu-ción eficiente para entornos creativos. A nivel internacional, la investigación se sustenta en los principios de la Ingeniería de Software Dirigida por Modelos (MDD), que permitió optimi-zar el proceso de desarrollo en condiciones de recursos limitados. Simultáneamente, se adoptaron los postulados del Desarrollo Centrado en el Usuario (DCU) de Gould y Lewis, adaptándolos al particular ecosistema tecnológico cubano caracterizado por conectividad in-termitente y heterogeneidad de dispositivos.
-En el contexto nacional, se consideraron los lineamientos establecidos por la Política de In-formatización de la Sociedad Cubana y las experiencias recogidas en proyectos precedentes desarrollados en universidades cubanas sobre desarrollo de software para entornos de re-cursos restringidos. Estos fundamentos nacionales enfatizaron la necesidad de priorizar la eficiencia energética, el funcionamiento offline y la optimización del ancho de banda como requisitos no funcionales críticos.
+El presente epígrafe sistematiza los fundamentos teórico-metodológicos que sustentan el desarrollo de la solución tecnológica. A diferencia de una adopción genérica de metodologías ágiles, se realizó una selección explícita de enfoques en función del problema investigado.
+
+La estrategia metodológica adoptada combina Design Thinking y Scrum. Design Thinking se utiliza en las fases iniciales para empatizar con los usuarios, definir necesidades y prototipar alternativas \citep{Brown2008}. Scrum se emplea en la implementación por iteraciones cortas, con revisión periódica de incrementos funcionales y priorización continua del backlog \citep{Schwaber2020}. Esta decisión responde a tres criterios: necesidad de retroalimentación temprana, ajuste incremental ante cambios y control del alcance en un entorno de recursos limitados.
+En el contexto nacional, se consideraron los lineamientos establecidos por la Política de Informatización de la Sociedad Cubana y las experiencias recogidas en proyectos precedentes desarrollados en universidades cubanas sobre desarrollo de software para entornos de recursos restringidos. Estos fundamentos nacionales enfatizaron la necesidad de priorizar la eficiencia energética, el funcionamiento offline y la optimización del ancho de banda como requisitos no funcionales críticos.
 Como referentes fundamentales se establecieron:
 
 \begin{itemize}
     \item El Modelo de Calidad de Software ISO 25010 adaptado a las condiciones tecnológicas cubanas
     \item Los principios de Diseño de Experiencia Mobile First de Luke Wroblewski
-    \item Las metodologías de Desarrollo Agil de Software con adaptaciones para entornos aca-démico-productivos
-    \item Las investigaciones sobre Optimización de Recursos en Redes de Bajo Ancho de Ban-da desarrolladas en universidades cubanas
+    \item Las metodologías de desarrollo ágil de software con adaptaciones para entornos académico-productivos.
+    \item Las investigaciones sobre optimización de recursos en redes de bajo ancho de banda desarrolladas en universidades cubanas.
 \end{itemize}
 
 Esta integración de fundamentos internacionales con soluciones tecnológicas contextualizadas permitió establecer un marco de referencia coherente con las particularidades del desarrollo tecnológico en Cuba, donde la innovación debe conjugarse necesariamente con la adecuación a infraestructuras tecnológicas específicas y políticas de desarrollo nacional.
 
-\section{Diagnóstico del Objeto de Estudio: Aplicación Móvil para Gestión de Activos Digitales}
+\section{Diagnóstico del objeto de estudio: aplicación para gestión de activos digitales}
 
-El presente epígrafe tiene como objetivo caracterizar el estado actual de la gestión de acti-vos digitales en el contexto profesional cubano, específicamente en el sector creativo y de diseño. El diagnóstico realizado mediante encuestas a 80 profesionales de estudios de dise-ño, agencias de publicidad y creadores independientes en La Habana reveló que el 78% utili-za métodos manuales y desorganizados para gestionar sus recursos digitales, mientras que solo el 15% emplea herramientas especializadas, principalmente de origen extranjero con limitado acceso por restricciones tecnológicas y de conectividad.
+El presente epígrafe tiene como objetivo caracterizar el estado actual de la gestión de activos digitales en el contexto profesional cubano, específicamente en el sector creativo y de diseño. El diagnóstico, realizado mediante encuestas a 80 profesionales de estudios de diseño, agencias de publicidad y creadores independientes en La Habana, reveló que el 78\% utiliza métodos manuales y desorganizados para gestionar sus recursos digitales, mientras que solo el 15\% emplea herramientas especializadas.
+
+Para el levantamiento de información se aplicó un cuestionario estructurado de 12 ítems, organizado en cuatro dimensiones: frecuencia de búsqueda de recursos, nivel de organización, dificultades de colaboración y acceso a herramientas tecnológicas. El instrumento incluyó preguntas cerradas de selección única y múltiple, así como una pregunta abierta para recoger criterios cualitativos.
 Las variables principales estudiadas comprenden:
 
 \begin{itemize}
     \item Variable independiente: Implementación de Assets Studio como solución de gestión de activos digitales
-    \item Variable dependiente: Eficiencia en workflows creativos y nivel de organización de recur-sos digitales
+    \item Variable dependiente: eficiencia en flujos de trabajo creativos y nivel de organización de recursos digitales.
     \item Variables de control: Tipo de entidad creativa, volumen de activos gestionados, acceso a tecnologías
    
 \end{itemize}
 
-Resultados del Diagnóstico Preliminar
+Resultados del diagnóstico preliminar.
 El estudio diagnóstico evidenció que:
 
 \begin{itemize}
-    \item Pérdida de Tiempo Laboral: El 72 porciento de los profesionales dedica entre 2-3 horas diarias a buscar y organizar archivos
-    \item Duplicación de Recursos: El 65 porciento reporta problemas de versionado y duplicidad innecesa-ria de archivos
-    \item Limitaciones Tecnológicas: El 88 porciento manifiesta dificultades para acceder a soluciones in-ternacionales por restricciones de conectividad y pagos en línea
-    \item Necesidad de Colaboración: El 91 porciento identifica como crítica la falta de herramientas que faciliten el trabajo colaborativo con activos digitales
+    \item Pérdida de tiempo laboral: el 72\% de los profesionales dedica entre 2 y 3 horas diarias a buscar y organizar archivos.
+    \item Duplicación de recursos: el 65\% reporta problemas de versionado y duplicidad innecesaria de archivos.
+    \item Limitaciones tecnológicas: el 88\% manifiesta dificultades para acceder a soluciones internacionales por restricciones de conectividad y pagos en línea.
+    \item Necesidad de colaboración: el 91\% identifica como crítica la falta de herramientas que faciliten el trabajo colaborativo con activos digitales.
    
 \end{itemize}
 
-Problemática Identificada
+Problemática identificada.
 Se constató una brecha tecnológica significativa entre las necesidades de gestión digital del sector creativo cubano y las soluciones disponibles, caracterizada por:
 \begin{itemize}
 	\item Falta de herramientas adaptadas al contexto tecnológico nacional
@@ -69,38 +74,37 @@ Se constató una brecha tecnológica significativa entre las necesidades de gest
 	\item Pérdida de recursos digitales valiosos por mala organización
 \end{itemize}
 
-Pertinencia de la Investigación
-La situación diagnosticada demuestra la veracidad del problema científico planteado: la inexistencia de una solución de gestión de activos digitales adaptada al contexto tecnológico cubano que optimice los workflows creativos. La investigación se justifica por su potencial impacto en la productividad del sector creativo nacional y por ofrecer una solución tecnológi-camente viable que responde a las limitaciones específicas del entorno cubano.
+Pertinencia de la investigación.
+La situación diagnosticada demuestra la veracidad del problema científico planteado: la inexistencia de una solución de gestión de activos digitales adaptada al contexto tecnológico cubano que optimice los flujos de trabajo creativos. La investigación se justifica por su potencial impacto en la productividad del sector creativo nacional y por ofrecer una solución tecnológicamente viable que responde a las limitaciones específicas del entorno cubano.
 Los resultados del diagnóstico confirman la urgencia de desarrollar una herramienta como Assets Studio, que combine funcionalidades avanzadas de gestión con adaptación a las realidades tecnológicas de Cuba, constituyendo así una contribución significativa al proceso de informatización de la sociedad cubana en el sector creativo.
 
-\section{Fundamentos Teórico-Metodológicos de las Tecnologías y Herramientas Utilizadas}
+\section{Fundamentos teórico-metodológicos de las tecnologías y herramientas utilizadas}
 
-La implementación de Assets Studio requirió la selección estratégica de tecnologías y herra-mientas que respondieran tanto a los requerimientos funcionales de la aplicación como a las particularidades del contexto tecnológico cubano. La arquitectura tecnológica se fundamentó en principios de desarrollo web moderno, priorizando la eficiencia, escalabilidad y adaptabili-dad a infraestructuras con limitaciones de conectividad.
-Stack Tecnológico Implementado
-Entorno de Desarrollo:
+La implementación de Assets Studio requirió la selección estratégica de tecnologías y herramientas que respondieran tanto a los requerimientos funcionales de la aplicación como a las particularidades del contexto tecnológico cubano. La arquitectura tecnológica se fundamentó en principios de desarrollo web moderno, priorizando la eficiencia, escalabilidad y adaptabilidad a infraestructuras con limitaciones de conectividad.
+Stack tecnológico implementado.
+Entorno de desarrollo:
 
 \begin{itemize}
-	\item Visual Studio Code (v1.85.0): Seleccionado por su ligereza, extenso ecosistema de ex-tensiones y capacidad de funcionamiento offline, crucial para el desarrollo en entornos con conectividad intermitente.
+	\item Visual Studio Code (v1.85.0): seleccionado por su ligereza, extenso ecosistema de extensiones y capacidad de funcionamiento offline, crucial para el desarrollo en entornos con conectividad intermitente.
 	\item Next.js (v14.0.0): Framework elegido por su capacidad de renderizado híbrido (SSR/SSG), que permite optimizar el consumo de datos y mejorar el rendimiento en condiciones de baja velocidad de conexión.
 	\item JavaScript (ES2023): Lenguaje base seleccionado por su versatilidad, amplia adopción en el ecosistema cubano y compatibilidad con las herramientas del stack.
-	\item Pérdida de recursos digitales valiosos por mala organización
-	\item PostgreSQL (v15.0): Sistema de base de datos relacional optado por su robustez, capa-cidad de operar en entornos locales y su eficiencia en el manejo de metadatos de activos digitales.
-	\item Prisma ORM (v5.0.0): Herramienta de mapeo objeto-relacional que garantiza type-safety y facilita la migración entre diferentes entornos de desarrollo y producción.
-	\item Firebase (v10.0.0): Implementado para la gestión de proyectos, autenticación y almace-namiento básico, aprovechando su modelo freemium y documentación extensa.
-	\item Cloudinary SDK (v1.40.0): Seleccionado para el procesamiento optimizado de imágenes y assets visuales, con capacidad de transformación on-the-fly que reduce el ancho de banda consumido.
+	\item PostgreSQL (v15.0): sistema de base de datos relacional seleccionado por su robustez, capacidad de operar en entornos locales y eficiencia en el manejo de metadatos de activos digitales.
+	\item Prisma ORM (v5.0.0): herramienta de mapeo objeto-relacional que mejora la seguridad de tipos y facilita la migración entre diferentes entornos de desarrollo y producción.
+	\item Firebase (v10.0.0): implementado para la gestión de autenticación, aprovechando su modelo freemium y documentación extensa.
+	\item Cloudinary SDK (v1.40.0): seleccionado para el procesamiento optimizado de imágenes y recursos visuales, con capacidad de transformación dinámica que reduce el ancho de banda consumido.
 \end{itemize}
 
-Justificación de la Selección
+Justificación de la selección.
 La elección de este stack tecnológico respondió a criterios específicos del contexto cubano:
 
 \begin{itemize}
-	\item Eficiencia en el Uso de Recursos: Next.js y PostgreSQL permiten optimizar el consumo de memoria y procesamiento, crítico para el hardware disponible localmente.
-	\item Resiliencia ante Conectividad Intermitente: La arquitectura híbrida de Next.js posibilita funcionalidad offline básica, mientras que Prisma facilita la sincronización diferida.
-	\item Sostenibilidad Tecnológica: Selección de tecnologías con fuerte comunidad open-source y compatibilidad a largo plazo, reduciendo dependencia de licencias costosas.
-	\item Capacidad de Adaptación: El stack permite escalar verticalmente sin requerir cambios arquitectónicos significativos, adecuándose al crecimiento progresivo de la infraestructura nacional.
+	\item Eficiencia en el uso de recursos: Next.js y PostgreSQL permiten optimizar el consumo de memoria y procesamiento, crítico para el hardware disponible localmente.
+	\item Resiliencia ante conectividad intermitente: la arquitectura híbrida de Next.js posibilita funcionalidad offline básica, mientras que Prisma facilita la sincronización diferida.
+	\item Sostenibilidad tecnológica: selección de tecnologías con fuerte comunidad open source y compatibilidad a largo plazo, reduciendo dependencia de licencias costosas.
+	\item Capacidad de adaptación: el stack permite escalar verticalmente sin requerir cambios arquitectónicos significativos, adecuándose al crecimiento progresivo de la infraestructura nacional.
 \end{itemize}
 
-Esta fundamentación tecnológica asegura que Assets Studio no solo cumple con estándares internacionales de desarrollo, sino que está específicamente adaptada a las realidades y limi-taciones del ecosistema tecnológico cubano, garantizando su viabilidad y sostenibilidad en el tiempo.
+Esta fundamentación tecnológica asegura que Assets Studio no solo cumple con estándares internacionales de desarrollo, sino que está específicamente adaptada a las realidades y limitaciones del ecosistema tecnológico cubano, garantizando su viabilidad y sostenibilidad en el tiempo.
 
 % Escribir aquí el capítulo 1. Ejemplo de acrónimo es la \ac{UCI}. Esto es una cita de ejemplo \citep{Ou2013}. En la próxima oración se muestra un ejemplo de un acrónimo en inglés. Los sistemas de \ac{SCADA} son de gran importancia para la industria. 
 

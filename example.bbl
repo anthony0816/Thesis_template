@@ -16,5 +16,207 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{Brown2008}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=00432bf95dae33daba00dbbe9730bdfa}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{00432bf95dae33daba00dbbe9730bdfa}
+      \strng{fullhash}{00432bf95dae33daba00dbbe9730bdfa}
+      \strng{fullhashraw}{00432bf95dae33daba00dbbe9730bdfa}
+      \strng{bibnamehash}{00432bf95dae33daba00dbbe9730bdfa}
+      \strng{authorbibnamehash}{00432bf95dae33daba00dbbe9730bdfa}
+      \strng{authornamehash}{00432bf95dae33daba00dbbe9730bdfa}
+      \strng{authorfullhash}{00432bf95dae33daba00dbbe9730bdfa}
+      \strng{authorfullhashraw}{00432bf95dae33daba00dbbe9730bdfa}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Harvard Business Review}
+      \field{number}{6}
+      \field{title}{Design Thinking}
+      \field{volume}{86}
+      \field{year}{2008}
+      \field{pages}{84\bibrangedash 92}
+      \range{pages}{9}
+    \endentry
+    \entry{Garrett2011}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d061f60676574ea537a62d4635bccf11}{%
+           family={Garrett},
+           familyi={G\bibinitperiod},
+           given={Jesse\bibnamedelima James},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {New Riders}%
+      }
+      \strng{namehash}{d061f60676574ea537a62d4635bccf11}
+      \strng{fullhash}{d061f60676574ea537a62d4635bccf11}
+      \strng{fullhashraw}{d061f60676574ea537a62d4635bccf11}
+      \strng{bibnamehash}{d061f60676574ea537a62d4635bccf11}
+      \strng{authorbibnamehash}{d061f60676574ea537a62d4635bccf11}
+      \strng{authornamehash}{d061f60676574ea537a62d4635bccf11}
+      \strng{authorfullhash}{d061f60676574ea537a62d4635bccf11}
+      \strng{authorfullhashraw}{d061f60676574ea537a62d4635bccf11}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{The Elements of User Experience: User-Centered Design for the Web and Beyond}
+      \field{year}{2011}
+    \endentry
+    \entry{Nielsen1994}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhashraw}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhashraw}{753054f71283d85f82cda8e35daf6bac}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Usability Engineering}
+      \field{year}{1994}
+    \endentry
+    \entry{Norman2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=23f12bb124db5cb91003802eaee52457}{%
+           family={Norman},
+           familyi={N\bibinitperiod},
+           given={Don},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Basic Books}%
+      }
+      \strng{namehash}{23f12bb124db5cb91003802eaee52457}
+      \strng{fullhash}{23f12bb124db5cb91003802eaee52457}
+      \strng{fullhashraw}{23f12bb124db5cb91003802eaee52457}
+      \strng{bibnamehash}{23f12bb124db5cb91003802eaee52457}
+      \strng{authorbibnamehash}{23f12bb124db5cb91003802eaee52457}
+      \strng{authornamehash}{23f12bb124db5cb91003802eaee52457}
+      \strng{authorfullhash}{23f12bb124db5cb91003802eaee52457}
+      \strng{authorfullhashraw}{23f12bb124db5cb91003802eaee52457}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Revised and Expanded}
+      \field{title}{The Design of Everyday Things}
+      \field{year}{2013}
+    \endentry
+    \entry{Rosenfeld2015}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ce678185832a3d6d30797bea38563a54}{%
+           family={Rosenfeld},
+           familyi={R\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7f06f2b98c047d8c26a680d59bebe98}{%
+           family={Morville},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83de960fc462cdd39e669b449f9296e7}{%
+           family={Arango},
+           familyi={A\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{609547c569ecb4f1c6c2d33d4ef7f7e8}
+      \strng{fullhash}{609547c569ecb4f1c6c2d33d4ef7f7e8}
+      \strng{fullhashraw}{609547c569ecb4f1c6c2d33d4ef7f7e8}
+      \strng{bibnamehash}{609547c569ecb4f1c6c2d33d4ef7f7e8}
+      \strng{authorbibnamehash}{609547c569ecb4f1c6c2d33d4ef7f7e8}
+      \strng{authornamehash}{609547c569ecb4f1c6c2d33d4ef7f7e8}
+      \strng{authorfullhash}{609547c569ecb4f1c6c2d33d4ef7f7e8}
+      \strng{authorfullhashraw}{609547c569ecb4f1c6c2d33d4ef7f7e8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Information Architecture: For the Web and Beyond}
+      \field{year}{2015}
+    \endentry
+    \entry{Schwaber2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ee6f08fcba839e09471a0bc69152b6a5}{%
+           family={Schwaber},
+           familyi={S\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e3f26f6f816a26c6ab36bc7a899bcde}{%
+           family={Sutherland},
+           familyi={S\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Scrum.org}%
+      }
+      \strng{namehash}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{fullhash}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{fullhashraw}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{bibnamehash}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{authorbibnamehash}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{authornamehash}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{authorfullhash}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{authorfullhashraw}{303ea1dc92fd8c772eac56316b2074ef}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Scrum Guide: The Definitive Guide to Scrum}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

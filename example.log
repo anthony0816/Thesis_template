@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.3)  28 APR 2026 12:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.3)  28 APR 2026 14:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1570,6 +1570,10 @@ LaTeX Warning: Label `fig:casos_uso_sistema' multiply defined.
 
 LaTeX Warning: Label `fig:casos_uso_sistema' multiply defined.
 
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
+LaTeX Info: Redefining \. on input line 188.
+LaTeX Info: Redefining \% on input line 188.
 )
 \openout1 = `example.aux'.
 
@@ -1831,7 +1835,14 @@ LaTeX Font Info:    Font shape `T1/txr/b/sc' in size <10.95> not available
 (Font)              Font shape `T1/txr/bx/sc' tried instead on input line 2.
  [7
 
-])
+]
+LaTeX Info: Redefining \sptext on input line 49.
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+LaTeX Info: Redefining \sptext on input line 50.
+LaTeX Info: Redefining \. on input line 50.
+LaTeX Info: Redefining \% on input line 50.
+)
 \tf@toc=\write8
 \openout8 = `example.toc'.
 
@@ -1839,6 +1850,12 @@ LaTeX Font Info:    Font shape `T1/txr/b/sc' in size <10.95> not available
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \sptext on input line 14.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \sptext on input line 15.
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
 )
 \tf@lof=\write9
 \openout9 = `example.lof'.
@@ -1849,6 +1866,12 @@ LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \sptext on input line 5.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+LaTeX Info: Redefining \sptext on input line 6.
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
 )
 \tf@lot=\write10
 \openout10 = `example.lot'.
@@ -1873,25 +1896,36 @@ LaTeX Info: Redefining \% on input line 1.
 
  [13
 
-] (Introduction.tex [1
+] (Introduction.tex) (Chapter1.tex [1
 
 
-]) (Chapter1.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 1.
- [2]
+]
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 23.63593pt on input line 1.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <14.4> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 8.
-[3
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 10.
+[2
 
 ]
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+Overfull \hbox (7.1496pt too wide) in paragraph at lines 37--38
+[]\T1/txr/m/n/10.95 Las me-to-do-lo-gías de de-sa-rro-llo ágil de soft-wa-re con adap-ta-cio-nes pa-ra en-tor-nos académico-productivos. 
+ []
+
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 46.
+
+Package fancyhdr Warning: \headheight is too small (14.05273pt): 
+(fancyhdr)                Make it at least 27.65274pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.65274pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-13.6pt}.
+
+[3]
+LaTeX Info: Redefining \. on input line 80.
+LaTeX Info: Redefining \% on input line 80.
 
 
 Package fancyhdr Warning: \headheight is too small (14.05273pt): 
@@ -1901,22 +1935,8 @@ Package fancyhdr Warning: \headheight is too small (14.05273pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.6pt}.
 
 [4]
-Overfull \hbox (15.3621pt too wide) in paragraph at lines 34--35
-[]\T1/txr/m/n/10.95 Las me-to-do-lo-gías de De-sa-rro-llo Agil de Soft-wa-re con adap-ta-cio-nes pa-ra en-tor-nos aca-démico-productivos 
- []
-
-LaTeX Info: Redefining \. on input line 66.
-LaTeX Info: Redefining \% on input line 66.
-
-Package fancyhdr Warning: \headheight is too small (14.05273pt): 
-(fancyhdr)                Make it at least 27.65274pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.65274pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-13.6pt}.
-
-[5]
-LaTeX Info: Redefining \. on input line 89.
-LaTeX Info: Redefining \% on input line 89.
+LaTeX Info: Redefining \. on input line 104.
+LaTeX Info: Redefining \% on input line 104.
 
 
 Package fancyhdr Warning: \headheight is too small (14.05273pt): 
@@ -1925,7 +1945,7 @@ Package fancyhdr Warning: \headheight is too small (14.05273pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-13.6pt}.
 
-[6]) (Chapter2.tex
+[5]) (Chapter2.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
@@ -1936,111 +1956,108 @@ Package fancyhdr Warning: \headheight is too small (14.05273pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-13.6pt}.
 
-[7]
+[6]
 Cap\'{\i }tulo 2.
-[8
+[7
 
 ]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <12> not available
 (Font)              Font shape `T1/txr/bx/n' tried instead on input line 55.
 LaTeX Info: Redefining \. on input line 69.
 LaTeX Info: Redefining \% on input line 69.
- [9]
-<Images/diagramas/casos_de_uso_del_sistema.jpg, id=246, 1003.75pt x 528.97626pt>
+ [8]
+<Images/diagramas/casos_de_uso_del_sistema.jpg, id=258, 1003.75pt x 528.97626pt>
 File: Images/diagramas/casos_de_uso_del_sistema.jpg Graphic file (type jpg)
 <use Images/diagramas/casos_de_uso_del_sistema.jpg>
 Package pdftex.def Info: Images/diagramas/casos_de_uso_del_sistema.jpg  used on input line 85.
 (pdftex.def)             Requested size: 328.82707pt x 173.29547pt.
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
- [10 <./Images/diagramas/casos_de_uso_del_sistema.jpg>]
-<Images/diagramas/DA_subida_de_asset.JPG, id=251, 831.105pt x 715.67375pt>
+ [9 <./Images/diagramas/casos_de_uso_del_sistema.jpg>]
+<Images/diagramas/DA_subida_de_asset.JPG, id=263, 831.105pt x 715.67375pt>
 File: Images/diagramas/DA_subida_de_asset.JPG Graphic file (type jpg)
 <use Images/diagramas/DA_subida_de_asset.JPG>
 Package pdftex.def Info: Images/diagramas/DA_subida_de_asset.JPG  used on input line 109.
 (pdftex.def)             Requested size: 328.82707pt x 283.15215pt.
 LaTeX Info: Redefining \. on input line 123.
 LaTeX Info: Redefining \% on input line 123.
- [11 <./Images/diagramas/DA_subida_de_asset.JPG>]
+ [10 <./Images/diagramas/DA_subida_de_asset.JPG>]
 LaTeX Info: Redefining \. on input line 158.
 LaTeX Info: Redefining \% on input line 158.
- [12]
+ [11]
 LaTeX Info: Redefining \. on input line 189.
 LaTeX Info: Redefining \% on input line 189.
- [13]
+ [12]
 File: Images/diagramas/casos_de_uso_del_sistema.jpg Graphic file (type jpg)
 <use Images/diagramas/casos_de_uso_del_sistema.jpg>
 Package pdftex.def Info: Images/diagramas/casos_de_uso_del_sistema.jpg  used on input line 207.
 (pdftex.def)             Requested size: 328.82707pt x 173.29547pt.
 LaTeX Info: Redefining \. on input line 219.
 LaTeX Info: Redefining \% on input line 219.
- [14]
-<Images/diagramas/ED_modelo_entidad_relacion.PNG, id=269, 1767.60374pt x 1285.80376pt>
+ [13]
+<Images/diagramas/ED_modelo_entidad_relacion.PNG, id=281, 1767.60374pt x 1285.80376pt>
 File: Images/diagramas/ED_modelo_entidad_relacion.PNG Graphic file (type png)
 <use Images/diagramas/ED_modelo_entidad_relacion.PNG>
 Package pdftex.def Info: Images/diagramas/ED_modelo_entidad_relacion.PNG  used on input line 231.
 (pdftex.def)             Requested size: 328.82707pt x 239.1845pt.
 LaTeX Info: Redefining \. on input line 243.
 LaTeX Info: Redefining \% on input line 243.
- [15 <./Images/diagramas/ED_modelo_entidad_relacion.PNG>]
+ [14 <./Images/diagramas/ED_modelo_entidad_relacion.PNG>]
 LaTeX Info: Redefining \. on input line 322.
 LaTeX Info: Redefining \% on input line 322.
- [16]
-<Images/diagramas/WEB_pagina_principal.PNG, id=280, 1445.4pt x 813.0375pt>
+ [15]
+<Images/diagramas/WEB_pagina_principal.PNG, id=292, 1445.4pt x 813.0375pt>
 File: Images/diagramas/WEB_pagina_principal.PNG Graphic file (type png)
 <use Images/diagramas/WEB_pagina_principal.PNG>
 Package pdftex.def Info: Images/diagramas/WEB_pagina_principal.PNG  used on input line 327.
 (pdftex.def)             Requested size: 328.82707pt x 184.96011pt.
-<Images/diagramas/Web_detalles_asset.PNG, id=281, 1445.4pt x 813.0375pt>
+<Images/diagramas/Web_detalles_asset.PNG, id=293, 1445.4pt x 813.0375pt>
 File: Images/diagramas/Web_detalles_asset.PNG Graphic file (type png)
 <use Images/diagramas/Web_detalles_asset.PNG>
 Package pdftex.def Info: Images/diagramas/Web_detalles_asset.PNG  used on input line 338.
 (pdftex.def)             Requested size: 328.82707pt x 184.96011pt.
-<Images/diagramas/WEB_generacion_ia.PNG, id=282, 1445.4pt x 813.0375pt>
+<Images/diagramas/WEB_generacion_ia.PNG, id=294, 1445.4pt x 813.0375pt>
 File: Images/diagramas/WEB_generacion_ia.PNG Graphic file (type png)
 <use Images/diagramas/WEB_generacion_ia.PNG>
 Package pdftex.def Info: Images/diagramas/WEB_generacion_ia.PNG  used on input line 351.
 (pdftex.def)             Requested size: 328.82707pt x 184.96011pt.
 LaTeX Info: Redefining \. on input line 353.
 LaTeX Info: Redefining \% on input line 353.
- [17 <./Images/diagramas/WEB_pagina_principal.PNG> <./Images/diagramas/Web_detalles_asset.PNG>]
+ [16 <./Images/diagramas/WEB_pagina_principal.PNG> <./Images/diagramas/Web_detalles_asset.PNG>]
 LaTeX Info: Redefining \. on input line 376.
 LaTeX Info: Redefining \% on input line 376.
- [18 <./Images/diagramas/WEB_generacion_ia.PNG>]
+ [17 <./Images/diagramas/WEB_generacion_ia.PNG>]
 File: Images/diagramas/casos_de_uso_del_sistema.jpg Graphic file (type jpg)
 <use Images/diagramas/casos_de_uso_del_sistema.jpg>
 Package pdftex.def Info: Images/diagramas/casos_de_uso_del_sistema.jpg  used on input line 390.
 (pdftex.def)             Requested size: 328.82707pt x 173.29547pt.
 LaTeX Info: Redefining \. on input line 404.
 LaTeX Info: Redefining \% on input line 404.
- [19]
+ [18]
 File: Images/diagramas/casos_de_uso_del_sistema.jpg Graphic file (type jpg)
 <use Images/diagramas/casos_de_uso_del_sistema.jpg>
 Package pdftex.def Info: Images/diagramas/casos_de_uso_del_sistema.jpg  used on input line 426.
 (pdftex.def)             Requested size: 328.82707pt x 173.29547pt.
-LaTeX Info: Redefining \. on input line 432.
-LaTeX Info: Redefining \% on input line 432.
- [20]
-LaTeX Info: Redefining \. on input line 452.
-LaTeX Info: Redefining \% on input line 452.
- [21]) (Chapter3.tex
+LaTeX Info: Redefining \. on input line 435.
+LaTeX Info: Redefining \% on input line 435.
+ [19]) (Chapter3.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [22]
+ [20]
 Cap\'{\i }tulo 3.
-[23
+[21
 
 ]
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
- [24]) (Conclusions.tex
+ [22]) (Conclusions.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [25] [26
+ [23] [24
 
-]) (Suggestions.tex [27
+]) (Suggestions.tex [25
 
-] [28
+] [26
 
 ]) (Appendices.tex)
 
@@ -2050,10 +2067,21 @@ This document will not have a glossary.
 
 No file example.gls.
 No file example.acr.
+[27
 
-LaTeX Warning: Empty bibliography on input line 35.
+]
+LaTeX Info: Redefining \sptext on input line 35.
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
+LaTeX Info: Redefining \sptext on input line 35.
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
 
-[29
+Overfull \hbox (9.42227pt too wide) in paragraph at lines 35--35
+[][]\T1/txr/m/n/10.95 SCHWABER, Ken y SUTHER-LAND, Jeff, 2020. \T1/txr/m/it/10.95 The Scrum Gui-de: The De-fi-ni-ti-ve Gui-de to Scrum\T1/txr/m/n/10.95 . Scrum.org
+ []
+
+[28
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -2090,18 +2118,18 @@ LaTeX Warning: Empty bibliography on input line 35.
 
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <24.88> not available
 (Font)              Font shape `T1/txr/bx/n' tried instead on input line 35.
- [30
+ [29
 
 
 
 ]
 Ap\'{e}ndice A.
-<Anexos/BloqueCoronaReport.pdf, id=361, 614.295pt x 794.97pt>
+<Anexos/BloqueCoronaReport.pdf, id=381, 614.295pt x 794.97pt>
 File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf  used on input line 35.
 (pdftex.def)             Requested size: 276.43019pt x 357.7332pt.
-[31
+[30
 
 
  <./Anexos/BloqueCoronaReport.pdf>]
@@ -2110,19 +2138,19 @@ File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf  used on input line 35.
 (pdftex.def)             Requested size: 276.43019pt x 357.7332pt.
-[32
+[31
 
 ]
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
- [33]
+ [32]
 \c@tempcnt=\count623
 \c@includepdfpage=\count624
 File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf  used on input line 35.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Anexos/BloqueCoronaReport.pdf, id=391, page=1, 614.295pt x 794.97pt>
+<Anexos/BloqueCoronaReport.pdf, id=412, page=1, 614.295pt x 794.97pt>
 File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf, page 1>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf , page1 used on input line 35.
@@ -2143,11 +2171,11 @@ File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf, page 1>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf , page1 used on input line 35.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [34
+ [33
 
 
  <./Anexos/BloqueCoronaReport.pdf>]
-<Anexos/BloqueCoronaReport.pdf, id=413, page=2, 614.295pt x 794.97pt>
+<Anexos/BloqueCoronaReport.pdf, id=434, page=2, 614.295pt x 794.97pt>
 File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf, page 2>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf , page2 used on input line 35.
@@ -2160,12 +2188,18 @@ File: Anexos/BloqueCoronaReport.pdf Graphic file (type pdf)
 <use Anexos/BloqueCoronaReport.pdf, page 2>
 Package pdftex.def Info: Anexos/BloqueCoronaReport.pdf , page2 used on input line 35.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [35
+ [34
 
  <./Anexos/BloqueCoronaReport.pdf>] (example.aux
 LaTeX Info: Redefining \sptext on input line 21.
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
+LaTeX Info: Redefining \sptext on input line 187.
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
+LaTeX Info: Redefining \sptext on input line 188.
+LaTeX Info: Redefining \. on input line 188.
+LaTeX Info: Redefining \% on input line 188.
 )
  ***********
 LaTeX2e <2025-11-01>
@@ -2180,17 +2214,17 @@ Package logreq Info: Writing requests to 'example.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49376 strings out of 467871
- 957702 string characters out of 5414953
- 1970900 words of memory out of 5000000
- 77217 multiletter control sequences out of 15000+600000
- 712350 words of font info for 148 fonts, out of 8000000 for 9000
+ 49618 strings out of 467871
+ 963268 string characters out of 5414953
+ 1970769 words of memory out of 5000000
+ 77456 multiletter control sequences out of 15000+600000
+ 702761 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,17n,131p,2630b,2249s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,17n,131p,2630b,3178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/aurical/JanaSkrivanaSlant.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxbsc.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on example.pdf (48 pages, 2014324 bytes).
+Output written on example.pdf (47 pages, 2021782 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 142 named destinations out of 1000 (max. 500000)
- 476 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 675 PDF objects out of 1000 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
+ 484 words of extra memory for PDF output out of 10000 (max. 10000000)
 
