@@ -42,9 +42,10 @@
 \contentsline {subsection}{\numberline {3.3.2}Factibilidad Económica}{25}{subsection.3.3.2}%
 \contentsline {section}{Conclusiones del capítulo}{25}{section*.24}%
 \contentsline {chapter}{Conclusiones}{26}{chapter*.26}%
-\contentsline {chapter}{Recomendaciones}{27}{chapter*.28}%
-\contentsline {chapter}{Apéndices}{28}{section*.29}%
-\contentsline {chapter}{\numberline {A}Proyectos y Avales}{29}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Otro reporte}{30}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Otra sección de muestra}{30}{section.Alph2.1}%
-\contentsline {section}{\numberline {B.2}Otro ensamble Industrial}{31}{section.Alph2.2}%
+\contentsline {chapter}{CONCLUSIONES FINALES}{27}{chapter*.27}%
+\contentsline {chapter}{Recomendaciones}{28}{chapter*.29}%
+\contentsline {chapter}{Apéndices}{29}{section*.30}%
+\contentsline {chapter}{\numberline {A}Proyectos y Avales}{30}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Otro reporte}{31}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Otra sección de muestra}{31}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Otro ensamble Industrial}{32}{section.Alph2.2}%
