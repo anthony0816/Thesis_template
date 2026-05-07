@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.3)  28 APR 2026 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.3)  7 MAY 2026 08:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Antonio/Escuela 4to año/TESIS/Thesis_template/Thesis_template_fixed/Thesis_template/example.tex"
-(c:/Antonio/Escuela 4to año/TESIS/Thesis_template/Thesis_template_fixed/Thesis_template/example.tex
+**c:/Antonio/Escuela_4to_año/TESIS/Thesis_template/Thesis_template_fixed/Thesis_template/example.tex
+(c:/Antonio/Escuela_4to_año/TESIS/Thesis_template/Thesis_template_fixed/Thesis_template/example.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (thesis.cls
@@ -2215,14 +2215,14 @@ Package logreq Info: Writing requests to 'example.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  49618 strings out of 467871
- 963268 string characters out of 5414953
- 1970769 words of memory out of 5000000
+ 963262 string characters out of 5414953
+ 1971415 words of memory out of 5000000
  77456 multiletter control sequences out of 15000+600000
  702761 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,17n,131p,2630b,3178s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,17n,131p,2628b,3178s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/aurical/JanaSkrivanaSlant.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxbsc.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Antonio Luis/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on example.pdf (47 pages, 2021782 bytes).
+Output written on example.pdf (47 pages, 2026177 bytes).
 PDF statistics:
  675 PDF objects out of 1000 (max. 8388607)
  147 named destinations out of 1000 (max. 500000)
