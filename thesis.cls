@@ -308,7 +308,10 @@ Ingeniero en Ciencias Informáticas }
 {
 \clearpage
 \thispagestyle{empty}
-\chapter*{Dedicatoria}
+{%
+\def\addcontentsline##1##2##3{}%
+\chapter*{Dedicatoria}%
+}
 {
 \@thoughtFont\slshape\fontsize{16}{12}\selectfont
 \@dedicatory
@@ -318,7 +321,10 @@ Ingeniero en Ciencias Informáticas }
 {
 \newpage
 \thispagestyle{empty}
-\chapter*{Agradecimientos}
+{%
+\def\addcontentsline##1##2##3{}%
+\chapter*{Agradecimientos}%
+}
 {
 \@thoughtFont\slshape\fontsize{16}{12}\selectfont
 \@acknowledgment
@@ -328,7 +334,10 @@ Ingeniero en Ciencias Informáticas }
 {
 \newpage
 \thispagestyle{empty}
-\chapter*{Resumen}
+{%
+\def\addcontentsline##1##2##3{}%
+\chapter*{Resumen}%
+}
 {
 \@abstract
 \quad\\[0.6\baselineskip]
@@ -828,7 +837,7 @@ showstringspaces=false,      % Leerzeichen in Strings anzeigen ?
 }
 \end{tabular}
 \vfill
-{\bfseries La Habana, Marzo de 2026} \\
+{\bfseries La Habana, Junio de 2026} \\
 {\small Año del Centenario del Comandante en Jefe Fidel Castro Ruz} \\
 \end{center}
 \egroup
@@ -931,7 +940,10 @@ hidelinks
 {
 \clearpage
 \thispagestyle{empty}
-\chapter*{Declaración de autoría}
+{%
+\def\addcontentsline##1##2##3{}%
+\chapter*{Declaración de autoría}%
+}
 
 Declaramos ser autores de la presente tesis y reconocemos a la Universidad de las Ciencias Informáticas los derechos patrimoniales sobre esta, con carácter exclusivo.\\
 

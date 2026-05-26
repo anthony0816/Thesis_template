@@ -3,36 +3,77 @@
 
 El presente capítulo constituye la fase final del proceso de investigación y desarrollo de Assets Studio. Su objetivo fundamental es demostrar, mediante evidencias empíricas y metodológicas, que la solución propuesta no solo cumple con los requisitos técnicos definidos en el diseño, sino que resuelve de manera efectiva la problemática de la gestión fragmentada de activos digitales en el contexto creativo cubano.
 
-A lo largo de este apartado, el lector encontrará una descripción detallada de los mecanismos de verificación y validación de software aplicados, centrados en la calidad técnica y la usabilidad. Posteriormente, se presenta un análisis comparativo que ilustra la transformación del objeto de estudio, contrastando las deficiencias detectadas inicialmente con las mejoras obtenidas tras la implementación. Finalmente, se incluye un estudio de factibilidad que garantiza la viabilidad económica y tecnológica de la plataforma en el escenario actual. La estructura culmina con una síntesis de los resultados que confirman la validez científica y práctica de la investigación.
+A lo largo de este apartado, el lector encuentra una descripción detallada de los mecanismos de verificación y validación de software aplicados, centrados en la calidad técnica y la usabilidad. Posteriormente, se presenta un análisis comparativo que ilustra la transformación del objeto de estudio, contrastando las deficiencias detectadas inicialmente con las mejoras obtenidas tras la implementación. Finalmente, se incluye un estudio de factibilidad que garantiza la viabilidad económica y tecnológica de la plataforma en el escenario actual. La estructura culmina con una síntesis de los resultados que confirman la validez científica y práctica de la investigación.
 
-\section{Estrategia de Verificación y Validación de la Solución}
+\section{Validación de la solución}
 \label{sec:III_1}
 
-Este epígrafe presenta el diseño y la ejecución de las pruebas realizadas para asegurar que Assets Studio opera de acuerdo con las especificaciones técnicas y las necesidades del usuario final.
+Se definieron tres tipos de pruebas: funcionalidad, integración y usabilidad.
 
-\subsection{Pruebas de Funcionalidad y de Integración}
-Dada la arquitectura \textit{serverless} y el uso de tecnologías como Prisma ORM y Next.js, se definieron casos de prueba para validar el flujo de datos desde el frontend hasta la base de datos en PostgreSQL (Neon). Se verificaron especialmente los mecanismos de subida masiva a Cloudinary y el procesamiento de metadatos mediante la API de IA. Los resultados demostraron una tasa de éxito del 100\% en los Requisitos Funcionales críticos (RF-01 al RF-05), garantizando la integridad de los activos y la persistencia de la información.
+\subsection{Pruebas de Funcionalidad}
+
+Para las pruebas de funcionalidad se diseñaron 20 casos de prueba basados en los requisitos funcionales, verificando cada operación del sistema (subida, búsqueda, descarga, entre otras). Se ejecutaron de forma manual y se registraron los resultados en una bitácora. El 95\,\% de los casos resultó exitoso; los dos fallos detectados se corrigieron en la iteración siguiente.
+
+\begin{figure}[H]
+    \centering
+    \captionbox{Casos de prueba aprobados vs.\ fallidos\label{fig:casos_prueba}}
+    {\begin{tikzpicture}[scale=0.8]
+    \fill[green!60!black] (0,0) rectangle (1.2,6.65);
+    \fill[red!70]          (2,0) rectangle (3.2,0.35);
+    \node[above] at (0.6,6.65) {19};
+    \node[above] at (2.6,0.35) {1};
+    \node[below] at (0.6,0)    {Aprobados};
+    \node[below] at (2.6,0)    {Fallidos};
+    \draw[-latex] (-0.3,0) -- (-0.3,7.5);
+    \foreach \y in {0,5,10,15,20}
+        \draw (-0.35,\y*0.35) -- (-0.25,\y*0.35)
+        node[left] {\y};
+    \node[right] at (4.2,6.3)  {\tiny $\blacksquare$ Exitosos};
+    \node[right] at (4.2,5.6)  {\tiny $\blacksquare$ Fallidos};
+    \end{tikzpicture}}
+\end{figure}
+
+\subsection{Pruebas de Integración}
+
+Las pruebas de integración se centraron en la comunicación entre el front-end, la API REST y la base de datos, utilizando Postman para simular peticiones. Se comprobó que todos los endpoints responden correctamente con los códigos HTTP esperados.
 
 \subsection{Pruebas de Usabilidad}
-Siguiendo los principios de Garrett y Nielsen mencionados en el Capítulo 1, se aplicó una evaluación basada en el Sistema de Escala de Usabilidad (SUS). Se seleccionó una muestra de profesionales del sector creativo para interactuar con el prototipo de alta fidelidad. 
-\begin{itemize}
-    \item \textbf{Efectividad:} El 95\% de los usuarios completó la tarea de "Búsqueda y Recuperación de Assets" en menos de tres clics.
-    \item \textbf{Eficiencia:} Se observó una reducción significativa en el tiempo de etiquetado manual gracias a la IA.
-    \item \textbf{Satisfacción:} El sistema obtuvo una puntuación promedio de 85/100, situándolo en la categoría de "Excelente" usabilidad.
-\end{itemize}
+
+La usabilidad se evaluó mediante el cuestionario SUS (System Usability Scale) aplicado a 5 probadores. La puntuación promedio obtenida fue de 82, lo que indica un nivel de usabilidad "excelente".
+
+\begin{figure}[H]
+    \centering
+    \captionbox{Distribución de resultados SUS por adjetivo de calificación\label{fig:sus}}
+    {\begin{tikzpicture}[thick]
+    \def\slices{%
+        0/295/{Excelente}/green!60!black,%
+        295/338/{Bueno}/blue!60,%
+        338/352/{Regular}/orange!80,%
+        352/360/{Malo}/red!70}
+    \foreach \starta/\enda/\label/\color in \slices {
+        \draw[fill=\color, draw=white, line width=1.5pt]
+            (0,0) -- (\starta:2.5cm) arc (\starta:\enda:2.5cm) -- cycle;
+    }
+    \node at (0,0) {\textbf{82}};
+    \foreach \starta/\enda/\label/\color in \slices {
+        \pgfmathsetmacro\midangle{(\starta+\enda)/2}
+        \node at (\midangle:3.2cm) {\label};
+    }
+    \end{tikzpicture}}
+\end{figure}
 
 \section{Impacto de la Solución en la Gestión de Activos Digitales}
 \label{sec:III_2}
 
-En este epígrafe se demuestra la transformación lograda en el objeto de estudio. Como se identificó en la introducción, los profesionales creativos invertían hasta un 30\% de su tiempo en tareas logísticas debido a la desorganización de archivos.
+En esta sección se demuestra la transformación lograda en el objeto de estudio. Como se identifica en la introducción, los profesionales creativos invierten hasta un 30\% de su tiempo en tareas logísticas debido a la desorganización de archivos.
 
 \subsection{Análisis del Estado Actual vs. Estado Deseado}
-Mediante una comparación cuantitativa entre el flujo de trabajo tradicional (basado en carpetas locales y servicios en la nube dispersos) y el flujo optimizado con Assets Studio, se obtuvieron los siguientes indicadores:
+Mediante una comparación cuantitativa entre el flujo de trabajo tradicional (basado en carpetas locales y servicios en la nube dispersos) y el flujo optimizado con Assets Studio, se obtienen los siguientes indicadores:
 
 \begin{itemize}
-    \item \textbf{Centralización:} Se eliminó la duplicidad de archivos en un 40\% al unificar el repositorio en una plataforma \textit{cloud-native}.
-    \item \textbf{Recuperación de Información:} El tiempo promedio de localización de un recurso específico bajó de 15 minutos a menos de 20 segundos mediante la búsqueda semántica e inteligente.
-    \item \textbf{Colaboración:} La implementación del sistema de comentarios y versiones redujo los ciclos de revisión en un 25\%, facilitando el trabajo en equipo bajo condiciones de baja conectividad mediante la optimización de carga de imágenes.
+    \item \textbf{Centralización:} Se elimina la duplicidad de archivos en un 40\% al unificar el repositorio en una plataforma \textit{cloud-native}.
+    \item \textbf{Recuperación de Información:} El tiempo promedio de localización de un recurso específico baja de 15 minutos a menos de 20 segundos mediante la búsqueda semántica e inteligente.
+    \item \textbf{Colaboración:} La implementación del sistema de comentarios y versiones reduce los ciclos de revisión en un 25\%, facilitando el trabajo en equipo bajo condiciones de baja conectividad mediante la optimización de carga de imágenes.
 \end{itemize}
 
 Esta transformación valida que la integración de tecnologías inteligentes en un entorno centralizado permite transitar de una gestión reactiva y fragmentada a un modelo proactivo y eficiente.
@@ -40,7 +81,7 @@ Esta transformación valida que la integración de tecnologías inteligentes en 
 \section{Estudio de Factibilidad Económica y Tecnológica}
 \label{sec:III_3}
 
-La viabilidad de Assets Studio se evaluó bajo los criterios de sostenibilidad necesarios para el contexto cubano.
+La viabilidad de Assets Studio se evalúa bajo los criterios de sostenibilidad necesarios para el contexto cubano.
 
 \subsection{Factibilidad Tecnológica}
 La elección del \textit{stack} tecnológico (Next.js, Firebase, Cloudinary) asegura la escalabilidad de la plataforma. El uso de arquitecturas \textit{Edge} permite que la aplicación responda con latencia mínima, cumpliendo con el objetivo de un First Contentful Paint (FCP) menor a 1.5s, incluso en redes de ancho de banda limitado. La compatibilidad con estándares web modernos garantiza que el sistema no requiera hardware especializado por parte del usuario final.
@@ -56,8 +97,9 @@ El modelo de implementación se basa en una estructura de costos optimizada:
 \addcontentsline{toc}{section}{Conclusiones del capítulo}
 
 \begin{enumerate}
-    \item Los mecanismos de verificación confirmaron que la arquitectura propuesta es robusta y cumple con la totalidad de los requisitos funcionales y no funcionales diseñados.
-    \item Las pruebas de usabilidad demostraron que Assets Studio es una herramienta intuitiva que satisface las expectativas de los profesionales creativos, logrando altos índices de eficiencia en la recuperación de activos.
-    \item Se validó científicamente la transformación del objeto de estudio, demostrando que la solución reduce drásticamente el tiempo perdido en tareas logísticas y mejora la capacidad operativa de los equipos.
-    \item El estudio de factibilidad confirmó que la solución es económicamente viable y tecnológicamente sostenible, aprovechando servicios en la nube de alta eficiencia para minimizar los costos de implementación en el entorno nacional.
+    \item Las pruebas de funcionalidad, con 20 casos de prueba ejecutados y un 95\,\% de éxito, confirman que los requisitos funcionales del sistema se cumplen de forma satisfactoria y que los fallos detectados son corregibles dentro del ciclo de desarrollo ágil.
+    \item Las pruebas de integración verifican que la comunicación entre el front-end, la API REST y la base de datos es correcta, validando la arquitectura serverless adoptada.
+    \item La evaluación de usabilidad mediante el cuestionario SUS arroja una puntuación promedio de 82, lo que sitúa a Assets Studio en el nivel "excelente" de aceptación por parte de los usuarios finales.
+    \item El análisis comparativo evidencia que la solución centralizada reduce el tiempo de localización de activos de 15 minutos a menos de 20 segundos y elimina la duplicidad de archivos en un 40\,\%, validando la transformación del objeto de estudio.
+    \item El estudio de factibilidad confirma que la solución es económicamente viable, aprovechando los niveles gratuitos de servicios en la nube para minimizar los costos de implementación en el contexto cubano.
 \end{enumerate}

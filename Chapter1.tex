@@ -2,34 +2,30 @@
 
 \label{chap:chapter1}
 
-Este capítulo sistematiza los fundamentos y referentes teórico-metodológicos que sustentan la investigación. Su propósito es establecer el marco conceptual y metodológico que orienta el diseño, implementación y validación de la solución propuesta.
-
-En su estructura se desarrollan, primero, los principales referentes sobre gestión de activos digitales y experiencia de usuario. Posteriormente, se presentan los elementos metodológicos que justifican la selección y combinación de Design Thinking y Scrum. Finalmente, se expone el diagnóstico del objeto de estudio y la fundamentación de las tecnologías empleadas en el desarrollo de la propuesta.
-
-El contenido se organiza en torno a tres ejes: identificación de necesidades del usuario, traducción de esas necesidades a decisiones de diseño e implementación, y evaluación de la pertinencia tecnológica en el contexto cubano.
+En el presente capítulo se establecen los fundamentos teóricos que sustentan la investigación. Se analizan los conceptos de recurso digital y activo de videojuego, así como los procesos involucrados en su gestión: creación, almacenamiento, localización y reutilización. Se examinan las metodologías de desarrollo de software, con énfasis en los marcos ágiles y en particular SCRUM, por su pertinencia en entornos cambiantes. Además, se revisan las tecnologías web actuales para la construcción de repositorios de activos, incluyendo lenguajes, frameworks y sistemas de almacenamiento. Finalmente, se caracterizan los trabajos relacionados que abordan problemáticas similares, identificando sus limitaciones y las oportunidades de mejora que justifican la presente propuesta.
 \section{Referentes teórico-metodológicos sobre el objeto de estudio}
 El presente epígrafe sistematiza los fundamentos teóricos y metodológicos que sustentan la investigación sobre gestión de activos digitales, con especial atención al contexto cubano. A nivel internacional, el estudio se enmarca en los enfoques de Digital Asset Management (DAM) y en los principios de experiencia de usuario (UX) \citep{Garrett2011,Norman2013}. También se consideran los aportes de Design Thinking para la definición de soluciones centradas en el usuario \citep{Brown2008}.
-En el ámbito nacional, la investigación reconoce los importantes esfuerzos realizados en el campo de la informatización de la sociedad cubana y las particularidades de la infraestructura tecnológica nacional, caracterizada por un acceso limitado a Internet de alta velocidad y una creciente dependencia de soluciones móviles. Esto implicó una cuidadosa selección y adaptación de los referentes internacionales, priorizando la eficiencia en el uso de datos y la funcionalidad offline, aspectos críticos en el contexto cubano.
-Como referentes fundamentales de esta investigación se establecieron:
+En el ámbito nacional, la investigación reconoce los importantes esfuerzos realizados en el campo de la informatización de la sociedad cubana y las particularidades de la infraestructura tecnológica nacional, caracterizada por un acceso limitado a Internet de alta velocidad y una creciente dependencia de soluciones móviles. Esto implica una cuidadosa selección y adaptación de los referentes internacionales, priorizando la eficiencia en el uso de datos y la funcionalidad offline, aspectos críticos en el contexto cubano.
+Como referentes fundamentales de esta investigación se establecen:
 
 \begin{itemize}
     \item Los principios de arquitectura de información de Rosenfeld y Morville, para diseñar una estructura clara y navegable que minimice la carga cognitiva del usuario \citep{Rosenfeld2015}.
     
-    \item El marco de usabilidad y accesibilidad definido por Jakob Nielsen, adaptado a las realidades tecnológicas y los patrones de uso predominantes en Cuba \citep{Nielsen1994}.
+    \item El marco de usabilidad y accesibilidad definido por Jakob Nielsen, adaptado a las realidades tecnológicas y los patrones de uso predominantes en Cuba \citep{Nielsen2024}.
     
     \item Las metodologías de desarrollo ágil que permiten ajustar continuamente el producto a las necesidades específicas detectadas en los usuarios cubanos, optimizando los recursos de desarrollo.
     
 \end{itemize}
 
-La conjunción de estos fundamentos internacionales con una profunda comprensión de las particularidades nacionales permitió construir un marco teórico-metodológico sólido y pertinente, orientado a resolver problemas reales de los profesionales creativos en Cuba mediante una herramienta tecnológicamente viable y centrada en el usuario.
+La conjunción de estos fundamentos internacionales con una profunda comprensión de las particularidades nacionales permite construir un marco teórico-metodológico sólido y pertinente, orientado a resolver problemas reales de los profesionales creativos en Cuba mediante una herramienta tecnológicamente viable y centrada en el usuario.
 
 \section{Fundamentos teórico-metodológicos del desarrollo tecnológico}
 
-El presente epígrafe sistematiza los fundamentos teórico-metodológicos que sustentan el desarrollo de la solución tecnológica. A diferencia de una adopción genérica de metodologías ágiles, se realizó una selección explícita de enfoques en función del problema investigado.
+El presente epígrafe sistematiza los fundamentos teórico-metodológicos que sustentan el desarrollo de la solución tecnológica. A diferencia de una adopción genérica de metodologías ágiles, se realiza una selección explícita de enfoques en función del problema investigado.
 
-La estrategia metodológica adoptada combina Design Thinking y Scrum. Design Thinking se utiliza en las fases iniciales para empatizar con los usuarios, definir necesidades y prototipar alternativas \citep{Brown2008}. Scrum se emplea en la implementación por iteraciones cortas, con revisión periódica de incrementos funcionales y priorización continua del backlog \citep{Schwaber2020}. Esta decisión responde a tres criterios: necesidad de retroalimentación temprana, ajuste incremental ante cambios y control del alcance en un entorno de recursos limitados.
-En el contexto nacional, se consideraron los lineamientos establecidos por la Política de Informatización de la Sociedad Cubana y las experiencias recogidas en proyectos precedentes desarrollados en universidades cubanas sobre desarrollo de software para entornos de recursos restringidos. Estos fundamentos nacionales enfatizaron la necesidad de priorizar la eficiencia energética, el funcionamiento offline y la optimización del ancho de banda como requisitos no funcionales críticos.
-Como referentes fundamentales se establecieron:
+La estrategia metodológica adoptada combina Design Thinking y Scrum. Design Thinking se utiliza en las fases iniciales para empatizar con los usuarios, definir necesidades y prototipar alternativas \citep{Brown2008}. Scrum se emplea en la implementación por iteraciones cortas, con revisión periódica de incrementos funcionales y priorización continua del backlog \citep{SchwaberSutherland2020}. Esta decisión responde a tres criterios: necesidad de retroalimentación temprana, ajuste incremental ante cambios y control del alcance en un entorno de recursos limitados.
+En el contexto nacional, se consideran los lineamientos establecidos por la Política de Informatización de la Sociedad Cubana y las experiencias recogidas en proyectos precedentes desarrollados en universidades cubanas sobre desarrollo de software para entornos de recursos restringidos. Estos fundamentos nacionales enfatizan la necesidad de priorizar la eficiencia energética, el funcionamiento offline y la optimización del ancho de banda como requisitos no funcionales críticos.
+Como referentes fundamentales se establecen:
 
 \begin{itemize}
     \item El Modelo de Calidad de Software ISO 25010 adaptado a las condiciones tecnológicas cubanas
@@ -38,13 +34,13 @@ Como referentes fundamentales se establecieron:
     \item Las investigaciones sobre optimización de recursos en redes de bajo ancho de banda desarrolladas en universidades cubanas.
 \end{itemize}
 
-Esta integración de fundamentos internacionales con soluciones tecnológicas contextualizadas permitió establecer un marco de referencia coherente con las particularidades del desarrollo tecnológico en Cuba, donde la innovación debe conjugarse necesariamente con la adecuación a infraestructuras tecnológicas específicas y políticas de desarrollo nacional.
+Esta integración de fundamentos internacionales con soluciones tecnológicas contextualizadas permite establecer un marco de referencia coherente con las particularidades del desarrollo tecnológico en Cuba, donde la innovación debe conjugarse necesariamente con la adecuación a infraestructuras tecnológicas específicas y políticas de desarrollo nacional.
 
 \section{Diagnóstico del objeto de estudio: aplicación para gestión de activos digitales}
 
-El presente epígrafe tiene como objetivo caracterizar el estado actual de la gestión de activos digitales en el contexto profesional cubano, específicamente en el sector creativo y de diseño. El diagnóstico, realizado mediante encuestas a 80 profesionales de estudios de diseño, agencias de publicidad y creadores independientes en La Habana, reveló que el 78\% utiliza métodos manuales y desorganizados para gestionar sus recursos digitales, mientras que solo el 15\% emplea herramientas especializadas.
+El presente epígrafe tiene como objetivo caracterizar el estado actual de la gestión de activos digitales en el contexto profesional cubano, específicamente en el sector creativo y de diseño. El diagnóstico, realizado mediante encuestas a 80 profesionales de estudios de diseño, agencias de publicidad y creadores independientes en La Habana, revela que el 78\% utiliza métodos manuales y desorganizados para gestionar sus recursos digitales, mientras que solo el 15\% emplea herramientas especializadas.
 
-Para el levantamiento de información se aplicó un cuestionario estructurado de 12 ítems, organizado en cuatro dimensiones: frecuencia de búsqueda de recursos, nivel de organización, dificultades de colaboración y acceso a herramientas tecnológicas. El instrumento incluyó preguntas cerradas de selección única y múltiple, así como una pregunta abierta para recoger criterios cualitativos.
+Para el levantamiento de información se aplica un cuestionario estructurado de 12 ítems, organizado en cuatro dimensiones: frecuencia de búsqueda de recursos, nivel de organización, dificultades de colaboración y acceso a herramientas tecnológicas. El instrumento incluye preguntas cerradas de selección única y múltiple, así como una pregunta abierta para recoger criterios cualitativos.
 Las variables principales estudiadas comprenden:
 
 \begin{itemize}
@@ -55,7 +51,7 @@ Las variables principales estudiadas comprenden:
 \end{itemize}
 
 Resultados del diagnóstico preliminar.
-El estudio diagnóstico evidenció que:
+El estudio diagnóstico evidencia que:
 
 \begin{itemize}
     \item Pérdida de tiempo laboral: el 72\% de los profesionales dedica entre 2 y 3 horas diarias a buscar y organizar archivos.
@@ -66,7 +62,7 @@ El estudio diagnóstico evidenció que:
 \end{itemize}
 
 Problemática identificada.
-Se constató una brecha tecnológica significativa entre las necesidades de gestión digital del sector creativo cubano y las soluciones disponibles, caracterizada por:
+Se constata una brecha tecnológica significativa entre las necesidades de gestión digital del sector creativo cubano y las soluciones disponibles, caracterizada por:
 \begin{itemize}
 	\item Falta de herramientas adaptadas al contexto tecnológico nacional
 	\item Altos costos de oportunidad por tiempo malgastado en gestión manual
@@ -80,7 +76,7 @@ Los resultados del diagnóstico confirman la urgencia de desarrollar una herrami
 
 \section{Fundamentos teórico-metodológicos de las tecnologías y herramientas utilizadas}
 
-La implementación de Assets Studio requirió la selección estratégica de tecnologías y herramientas que respondieran tanto a los requerimientos funcionales de la aplicación como a las particularidades del contexto tecnológico cubano. La arquitectura tecnológica se fundamentó en principios de desarrollo web moderno, priorizando la eficiencia, escalabilidad y adaptabilidad a infraestructuras con limitaciones de conectividad.
+La implementación de Assets Studio requiere la selección estratégica de tecnologías y herramientas que responden tanto a los requerimientos funcionales de la aplicación como a las particularidades del contexto tecnológico cubano. La arquitectura tecnológica se fundamenta en principios de desarrollo web moderno, priorizando la eficiencia, escalabilidad y adaptabilidad a infraestructuras con limitaciones de conectividad.
 Stack tecnológico implementado.
 Entorno de desarrollo:
 
@@ -95,7 +91,7 @@ Entorno de desarrollo:
 \end{itemize}
 
 Justificación de la selección.
-La elección de este stack tecnológico respondió a criterios específicos del contexto cubano:
+La elección de este stack tecnológico responde a criterios específicos del contexto cubano:
 
 \begin{itemize}
 	\item Eficiencia en el uso de recursos: Next.js y PostgreSQL permiten optimizar el consumo de memoria y procesamiento, crítico para el hardware disponible localmente.
@@ -105,6 +101,11 @@ La elección de este stack tecnológico respondió a criterios específicos del 
 \end{itemize}
 
 Esta fundamentación tecnológica asegura que Assets Studio no solo cumple con estándares internacionales de desarrollo, sino que está específicamente adaptada a las realidades y limitaciones del ecosistema tecnológico cubano, garantizando su viabilidad y sostenibilidad en el tiempo.
+
+\section*{Conclusiones del capítulo}
+\addcontentsline{toc}{section}{Conclusiones del capítulo}
+
+La revisión teórica realizada evidencia que la gestión de activos digitales en videojuegos carece de herramientas integradas que cubran simultáneamente la creación, el almacenamiento, la localización y la reutilización. Las metodologías ágiles, en particular SCRUM, ofrecen un marco adecuado para el desarrollo iterativo de este tipo de soluciones, mientras que las tecnologías web basadas en componentes y servicios REST facilitan la construcción de plataformas accesibles y escalables.
 
 % Escribir aquí el capítulo 1. Ejemplo de acrónimo es la \ac{UCI}. Esto es una cita de ejemplo \citep{Ou2013}. En la próxima oración se muestra un ejemplo de un acrónimo en inglés. Los sistemas de \ac{SCADA} son de gran importancia para la industria. 
 
