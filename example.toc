@@ -41,7 +41,7 @@
 \contentsline {subsection}{\numberline {2.5.4}Plan de Iteraciones}{20}{subsection.2.5.4}%
 \contentsline {subsection}{\numberline {2.5.5}Tareas de Ingeniería}{21}{subsection.2.5.5}%
 \contentsline {subsection}{\numberline {2.5.6}Pruebas de Aceptación}{22}{subsection.2.5.6}%
-\contentsline {section}{\numberline {2.6}Conclusiones del Capítulo}{22}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Conclusiones del Capítulo}{23}{section.2.6}%
 \contentsline {chapter}{\numberline {3}VALIDACIÓN DE LA SOLUCIÓN PROPUESTA}{24}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Validación de la solución}{24}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Pruebas de Funcionalidad}{24}{subsection.3.1.1}%

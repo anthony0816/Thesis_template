@@ -1623,7 +1623,7 @@ Para que así conste firmamos la presente a los \underline{\hspace{0.7cm}} días
 }
 {
 \@chktestcasecmds
-\begin{longtable}[c] {|l|l|}
+\begin{longtable}[c] {|p{0.2\linewidth}|p{0.75\linewidth}|}
 \caption{Prueba de aceptación \# \thetestcasecnt}
 \label{\@testcaselabel}\\ % the return here is mandatory
 
@@ -1641,17 +1641,16 @@ Para que así conste firmamos la presente a los \underline{\hspace{0.7cm}} días
 \endlastfoot
 
 \hhline{*{2}{-}}
-\multicolumn{1}{|p{0.4\linewidth}|}{\textbf{Código:} \@testcasecode} & \textbf{Historia de usuario:} \@testcaseuserstory\\ \hline
-\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Nombre:} \@testcasename} \\ \hline
-\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Descripción:} \@testcasedescription} \\ \hline
-\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Condiciones de ejecución:}\vspace{-2ex}
- \begin{flushleft}
+\multicolumn{1}{|p{0.2\linewidth}|}{\textbf{Código:} \@testcasecode} & \multicolumn{1}{p{0.65\linewidth}|}{\textbf{Historia de usuario:} \@testcaseuserstory}\\ \hline
+\multicolumn{2}{|p{0.95\linewidth}|}{\textbf{Nombre:} \@testcasename} \\ \hline
+\multicolumn{2}{|p{0.95\linewidth}|}{\textbf{Descripción:} \@testcasedescription} \\ \hline
+\multicolumn{2}{|p{0.95\linewidth}|}{\textbf{Condiciones de ejecución:}
+\begin{flushleft}
 \@testcaseexeccond
-\vspace{-2ex}
 \end{flushleft}} \\ \hline
-\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Pasos de ejecución:}\vspace{-2ex}
-\begin{flushleft}\@testcaseexecstep \vspace{-2ex} \end{flushleft}}\\ \hline
-\multicolumn{2}{|p{0.8\linewidth}|}{\textbf{Resultados esperados:} \@testcaseexpresult}
+\multicolumn{2}{|p{0.95\linewidth}|}{\textbf{Pasos de ejecución:}
+\begin{flushleft}\@testcaseexecstep \end{flushleft}}\\ \hline
+\multicolumn{2}{|p{0.95\linewidth}|}{\textbf{Resultados esperados:} \@testcaseexpresult}
 \end{longtable}
 }
 
